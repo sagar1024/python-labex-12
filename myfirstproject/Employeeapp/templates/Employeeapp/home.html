@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            margin: 0.5em;
+            padding: 0.4em;
+            font-size: 25px;
+            background-color: bisque;
+            color: black;
+            display: flex;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        .subheader {
+            margin: 0.4em;
+            padding: 0.4em;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+            background-color: cadetblue;
+            color: black;
+        }
+
+        .subheader2 {
+            margin: 0.4em;
+            padding: 0.4em;
+            display: flex;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+            background-color: cornsilk;
+            color: black;
+        }
+
+        .myform1 {
+            margin: 1em;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        #fname {
+            margin: 0.3em;
+            padding: 0.3em;
+            width: 45%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #lname {
+            margin: 0.3em;
+            padding: 0.3em;
+            width: 45%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #age {
+            margin: 0.3em;
+            padding: 0.3em;
+            width: 45%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #gender {
+            margin: 0.3em;
+            padding: 0.3em;
+            width: 45%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #dept {
+            margin: 0.3em;
+            padding: 0.3em;
+            width: 45%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #btn {
+            margin: 1em;
+            padding: 1em;
+            width: 10%;
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h2>SAGAR ENTERPRISES</h2>
+    </div>
+    <div class="subheader">
+        <h4>Employee Information</h4>
+        <p>Please fill the Information below:</p>
+        <hr>
+    </div>
+    <div class="subheader2">
+        <h4>PERSONAL INFORMATION</h4>
+        <hr>
+    </div>
+    <div class="myform">
+        <form class="myform1">
+            <label for="fname">First Name: </label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="age">Age: </label>
+            <input type="text" name="age" id="age">
+
+            <label for="gender">Gender: </label>
+            <input type="text" name="gender" id="gender">
+
+            <label for="dept">Department: </label>
+            <input type="text" name="dept" id="dept">
+
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
